@@ -9,7 +9,7 @@
     body {
       margin: 0%;
       padding: 0%;
-      background: linear-gradient(135deg, rgb(7, 96, 7) , rgb(6, 189, 98))
+      background: rgb(33, 33, 33);
     }
     .container {
       height: 100vh;
@@ -27,7 +27,7 @@
       height: 100px;
       width: 400px;
       border-radius: 10px;
-      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.477);
+      box-shadow: 3px 3px 8px rgba(120, 120, 120, 0.477);
     }
     .date {
       border: none;
@@ -48,7 +48,7 @@
       border-radius: 10px;
       height: 55px;
       width: 90px;
-      background-color: rgb(24, 151, 85);
+      background-color: rgb(19, 110, 175);
       color: white;
       font-size: medium;
       font-weight: 500;
@@ -70,7 +70,7 @@
       width: 100px;
       background-color: rgb(222, 222, 222);
       border-radius: 10px;
-      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.252);
+      box-shadow: 3px 3px 8px rgba(209, 209, 209, 0.323);
       margin-bottom: 20px;
       display: flex;
       justify-content: center;
@@ -88,6 +88,35 @@
       color: white;
       font-weight: 550;
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.481);
+    }
+    @media screen and (max-width: 590px) {
+      .main {
+        height: 80px;
+        width: 250px;
+      }
+      .date {
+        height: 20px;
+        width: 100px;
+        font-size: medium;
+      }
+      .submit {
+        height: 50px;
+        width: 70px;
+        font-size: small;
+        padding: 10px;
+      }
+      .result {
+        width: 280px;
+        margin-top: 60px;
+      }
+      .box {
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+      }
+      .heading {
+        font-size: medium;
+      }
     }
   </style>
   <body>
